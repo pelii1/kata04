@@ -12,7 +12,10 @@ import java.nio.file.Path;
 
 @Slf4j
 public class Kata04 {
-
+    /**
+     * yxxvxccvbcvb
+     * @param args
+     */
     public static void main(String... args) {
         FileOperate<DailyWeather> weatherFile = FileOperate.of(Path.of("src/main/resources/weather.dat"),
                 new DeltaTemperature(), new DailyWeatherDataLoad());
